@@ -1,0 +1,16 @@
+﻿  stdafx.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  dllmain.cpp
+  mem.cpp
+  proc.cpp
+  hackthread.cpp
+D:\Documents\Gits\GitHub\OkamiHD-Reverse-Engineering\C++ Code\OkamiHD-ProxyDll\hackthread.cpp(82,101): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+D:\Documents\Gits\GitHub\OkamiHD-Reverse-Engineering\C++ Code\OkamiHD-ProxyDll\hackthread.cpp(83,92): warning C4554: '>>': check operator precedence for possible error; use parentheses to clarify precedence
+  detourHook.cpp
+D:\Documents\Gits\GitHub\OkamiHD-Reverse-Engineering\C++ Code\OkamiHD-ProxyDll\detourHook.cpp(17,43): warning C4311: 'type cast': pointer truncation from 'void *' to 'DWORD'
+D:\Documents\Gits\GitHub\OkamiHD-Reverse-Engineering\C++ Code\OkamiHD-ProxyDll\detourHook.cpp(17,43): warning C4302: 'type cast': truncation from 'void *' to 'DWORD'
+D:\Documents\Gits\GitHub\OkamiHD-Reverse-Engineering\C++ Code\OkamiHD-ProxyDll\detourHook.cpp(17,63): warning C4311: 'type cast': pointer truncation from 'BYTE *' to 'DWORD'
+D:\Documents\Gits\GitHub\OkamiHD-Reverse-Engineering\C++ Code\OkamiHD-ProxyDll\detourHook.cpp(17,63): warning C4302: 'type cast': truncation from 'BYTE *' to 'DWORD'
+  Generating Code...
+     Creating library D:\Documents\Gits\GitHub\OkamiHD-Reverse-Engineering\C++ Code\OkamiHD-ProxyDll\x64\Debug\OkamiHD-ProxyDll.lib and object D:\Documents\Gits\GitHub\OkamiHD-Reverse-Engineering\C++ Code\OkamiHD-ProxyDll\x64\Debug\OkamiHD-ProxyDll.exp
+  OkamiHD-ProxyDll.vcxproj -> D:\Documents\Gits\GitHub\OkamiHD-Reverse-Engineering\C++ Code\OkamiHD-ProxyDll\x64\Debug\OkamiHD-ProxyDll.dll

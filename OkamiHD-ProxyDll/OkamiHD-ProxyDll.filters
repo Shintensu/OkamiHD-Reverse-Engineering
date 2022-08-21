@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\util">
+      <UniqueIdentifier>{1105ff80-bcb9-43de-aa38-f449ccac2c01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dinput8">
+      <UniqueIdentifier>{4c1c7b3e-e26b-4840-abc7-367be754081d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ini">
+      <UniqueIdentifier>{8ccafb16-f6ac-441e-bd77-c6505949d35c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="chainLoad.h">
+      <Filter>Header Files\dinput8</Filter>
+    </ClInclude>
+    <ClInclude Include="dinput8Proxy.h">
+      <Filter>Header Files\dinput8</Filter>
+    </ClInclude>
+    <ClInclude Include="ini.h">
+      <Filter>Header Files\ini</Filter>
+    </ClInclude>
+    <ClInclude Include="iniConfig.h">
+      <Filter>Header Files\ini</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dinput8.def">
+      <Filter>Header Files\dinput8</Filter>
+    </None>
+  </ItemGroup>
+</Project>

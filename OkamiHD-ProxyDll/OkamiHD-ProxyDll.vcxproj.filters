@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>src\preCompile</Filter>
+    </ClCompile>
+    <ClCompile Include="mem.cpp">
+      <Filter>src\mem</Filter>
+    </ClCompile>
+    <ClCompile Include="proc.cpp">
+      <Filter>src\proc</Filter>
+    </ClCompile>
+    <ClCompile Include="hackthread.cpp">
+      <Filter>src\hackthread</Filter>
+    </ClCompile>
+    <ClCompile Include="detourHook.cpp">
+      <Filter>src\detourHook</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>headers\preCompiledHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="dinput8Proxy.h">
+      <Filter>headers\dinput8</Filter>
+    </ClInclude>
+    <ClInclude Include="ini.h">
+      <Filter>headers\ini</Filter>
+    </ClInclude>
+    <ClInclude Include="iniConfig.h">
+      <Filter>headers\ini</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>headers\preCompiledHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="chainLoad.h">
+      <Filter>headers\dinput8</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>headers\util</Filter>
+    </ClInclude>
+    <ClInclude Include="mem.h">
+      <Filter>headers\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="proc.h">
+      <Filter>headers\proc</Filter>
+    </ClInclude>
+    <ClInclude Include="hackthread.h">
+      <Filter>headers\hackthread</Filter>
+    </ClInclude>
+    <ClInclude Include="detourHook.h">
+      <Filter>headers\detourHook</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{658cc410-2c01-499e-b176-8030a68a19f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{6e99b70d-6abc-46e8-8ad5-58f3d6345d2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\ini">
+      <UniqueIdentifier>{e60c9879-f603-4005-9331-dc55e93622a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\dinput8">
+      <UniqueIdentifier>{23956122-3ed8-4958-8f89-71d2f48b4a9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\preCompiledHeaders">
+      <UniqueIdentifier>{c10553d1-f809-44b6-a680-74dc438a49d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\util">
+      <UniqueIdentifier>{38c73d8b-0948-45a5-b460-f2071e0368e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\mem">
+      <UniqueIdentifier>{a65b90c9-4590-43a5-bc5b-f700560d90db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\proc">
+      <UniqueIdentifier>{1cfce3eb-6870-4434-9f0a-480b80ee00db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\preCompile">
+      <UniqueIdentifier>{94b2929d-357e-4747-a38f-9666f1a31f2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\proc">
+      <UniqueIdentifier>{5c6b1fc6-30a3-4c2b-b75a-33e8b4413b5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mem">
+      <UniqueIdentifier>{517b075f-8b68-41a9-ab3d-e136b4d3c596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\hackthread">
+      <UniqueIdentifier>{46c5f734-775b-47e6-9d08-b3fcf6f0b4bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hackthread">
+      <UniqueIdentifier>{0124da24-fb37-479f-87bc-5fd688ed21b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\detourHook">
+      <UniqueIdentifier>{d1a1be0e-596b-47b1-a52f-b026afe569a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\detourHook">
+      <UniqueIdentifier>{fcdefaa1-da8c-43f8-a0ad-28424d9bc18b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asmScripts">
+      <UniqueIdentifier>{c1509cd2-16c0-4609-92fc-44daf7aff077}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dinput8.def">
+      <Filter>headers\dinput8</Filter>
+    </None>
+  </ItemGroup>
+</Project>
