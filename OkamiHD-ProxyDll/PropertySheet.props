@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <OkamiHD>E:\Games\Steam\steamapps\common\Okami</OkamiHD>
+    <OkamiHDExecutable>E:\Games\Steam\steamapps\common\Okami\okami.exe</OkamiHDExecutable>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup />
+  <ItemGroup>
+    <BuildMacro Include="OkamiHD">
+      <Value>$(OkamiHD)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="OkamiHDExecutable">
+      <Value>$(OkamiHDExecutable)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+  </ItemGroup>
+</Project>
