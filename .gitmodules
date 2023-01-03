@@ -1,6 +1,6 @@
 [submodule "OkamiHD-ProxyDll"]
 	path = OkamiHD-ProxyDll
-	url = https://github.com/Shintensu/OkamiHD-ProxyDll
+	url = https://github.com/Shintensu/OkamiHD-ProxyDll.git
 [submodule "OkamiHD-SFSAM"]
 	path = OkamiHD-SFSAM
 	url = https://github.com/Shintensu/OkamiHD-SFSAM.git
