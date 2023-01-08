@@ -209,6 +209,17 @@ HelpForm.Hide()
                   </Offsets>
                   <CheatEntries>
                     <CheatEntry>
+                      <ID>88313</ID>
+                      <Description>"No description"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>main.dll+B6B2D0</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
                       <ID>88011</ID>
                       <Description>"coordinates"</Description>
                       <Options moHideChildren="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
@@ -635,6 +646,14 @@ HelpForm.Hide()
                       <Address>00007FFC904AEBA0+D8</Address>
                     </CheatEntry>
                   </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>88312</ID>
+                  <Description>"Temp variable that gets updated when opening the window"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>main.dll+B1EC2D </Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>87822</ID>
@@ -4171,7 +4190,8 @@ HelpForm.Hide()
                 <CheatEntry>
                   <ID>798</ID>
                   <Description>"Camera Type"</Description>
-                  <VariableType>2 Bytes</VariableType>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
                   <Address>main.dll+B664BC</Address>
                 </CheatEntry>
                 <CheatEntry>
@@ -70601,6 +70621,196 @@ addss xmm1,[rsi+00000E4C]
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
                       <Address>main.dll+B74414</Address>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>88314</ID>
+                          <Description>"Current Scene?"</Description>
+                          <DropDownList DisplayValueAsItem="1">00000000:On Startup
+00000D00:Capcom
+00001500:Hexadrive
+00001600:????
+00001F00:Criware
+00002000:Transition after Criware
+00000103:Prologue and Demo Movies
+00010103:White Fadeout from Demo to New Game/Continue Screen
+00000105:New Game/Continue/Options Menu
+01000105:Controls/Help/Options Menu
+00000107:File Select
+01000108:Controls
+01010108:Help
+01020108:Options
+00000104:Begin Story before Trademark Stamp
+00000204:Begin Story after Trademark Stamp
+00000304:After Selecting Begin Story, while data is loaded
+00000604:Brief Transition from Begin Story to New Game/Continue
+00000114:Quit Game
+00000306:Gameplay
+</DropDownList>
+                          <ShowAsHex>1</ShowAsHex>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>Byte</VariableType>
+                          <Address>+ 0</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>88319</ID>
+                          <Description>"Current Scene Stage?"</Description>
+                          <DropDownList DisplayValueAsItem="1">00000000:On Startup
+00000D00:Capcom
+00001500:Hexadrive
+00001600:????
+00001F00:Criware
+00002000:Transition after Criware
+00000103:Prologue and Demo Movies
+00010103:White Fadeout from Demo to New Game/Continue Screen
+00000105:New Game/Continue/Options Menu
+01000105:Controls/Help/Options Menu
+00000107:File Select
+01000108:Controls
+01010108:Help
+01020108:Options
+00000104:Begin Story before Trademark Stamp
+00000204:Begin Story after Trademark Stamp
+00000304:After Selecting Begin Story, while data is loaded
+00000604:Brief Transition from Begin Story to New Game/Continue
+00000114:Quit Game
+00000306:Gameplay
+</DropDownList>
+                          <ShowAsHex>1</ShowAsHex>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>Byte</VariableType>
+                          <Address>+1</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>88320</ID>
+                          <Description>"Is transition?"</Description>
+                          <DropDownList DisplayValueAsItem="1">00000000:On Startup
+00000D00:Capcom
+00001500:Hexadrive
+00001600:????
+00001F00:Criware
+00002000:Transition after Criware
+00000103:Prologue and Demo Movies
+00010103:White Fadeout from Demo to New Game/Continue Screen
+00000105:New Game/Continue/Options Menu
+01000105:Controls/Help/Options Menu
+00000107:File Select
+01000108:Controls
+01010108:Help
+01020108:Options
+00000104:Begin Story before Trademark Stamp
+00000204:Begin Story after Trademark Stamp
+00000304:After Selecting Begin Story, while data is loaded
+00000604:Brief Transition from Begin Story to New Game/Continue
+00000114:Quit Game
+00000306:Gameplay
+</DropDownList>
+                          <ShowAsHex>1</ShowAsHex>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>Byte</VariableType>
+                          <Address>+2</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>88321</ID>
+                          <Description>"Current Major Scene?"</Description>
+                          <DropDownList DisplayValueAsItem="1">00000000:On Startup
+00000D00:Capcom
+00001500:Hexadrive
+00001600:????
+00001F00:Criware
+00002000:Transition after Criware
+00000103:Prologue and Demo Movies
+00010103:White Fadeout from Demo to New Game/Continue Screen
+00000105:New Game/Continue/Options Menu
+01000105:Controls/Help/Options Menu
+00000107:File Select
+01000108:Controls
+01010108:Help
+01020108:Options
+00000104:Begin Story before Trademark Stamp
+00000204:Begin Story after Trademark Stamp
+00000304:After Selecting Begin Story, while data is loaded
+00000604:Brief Transition from Begin Story to New Game/Continue
+00000114:Quit Game
+00000306:Gameplay
+</DropDownList>
+                          <ShowAsHex>1</ShowAsHex>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>Byte</VariableType>
+                          <Address>+3</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>88318</ID>
+                          <Description>"Time since last user input"</Description>
+                          <DropDownList DisplayValueAsItem="1">00000000:On Startup
+00000D00:Capcom
+00001500:Hexadrive
+00001600:????
+00001F00:Criware
+00002000:Transition after Criware
+00000103:Prologue and Demo Movies
+00010103:White Fadeout from Demo to New Game/Continue Screen
+00000105:New Game/Continue/Options Menu
+01000105:Controls/Help/Options Menu
+00000107:File Select
+01000108:Controls
+01010108:Help
+01020108:Options
+00000104:Begin Story before Trademark Stamp
+00000204:Begin Story after Trademark Stamp
+00000304:After Selecting Begin Story, while data is loaded
+00000604:Brief Transition from Begin Story to New Game/Continue
+00000114:Quit Game
+00000306:Gameplay
+</DropDownList>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>2 Bytes</VariableType>
+                          <Address>+4</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>88315</ID>
+                          <Description>"??"</Description>
+                          <DropDownList DisplayValueAsItem="1">00000000:On Startup
+00000D00:Capcom
+00001500:Hexadrive
+00001600:????
+00001F00:Criware
+00002000:Transition after Criware
+00000103:Prologue and Demo Movies
+00010103:White Fadeout from Demo to New Game/Continue Screen
+00000105:New Game/Continue/Options Menu
+01000105:Controls/Help/Options Menu
+00000107:File Select
+01000108:Controls
+01010108:Help
+01020108:Options
+00000104:Begin Story before Trademark Stamp
+00000204:Begin Story after Trademark Stamp
+00000304:After Selecting Begin Story, while data is loaded
+00000604:Brief Transition from Begin Story to New Game/Continue
+00000114:Quit Game
+00000306:Gameplay
+</DropDownList>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>2 Bytes</VariableType>
+                          <Address>+6</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>88316</ID>
+                          <Description>"??"</Description>
+                          <ShowAsHex>1</ShowAsHex>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+8</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>88317</ID>
+                          <Description>"??"</Description>
+                          <ShowAsHex>1</ShowAsHex>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+C</Address>
+                        </CheatEntry>
+                      </CheatEntries>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>87831</ID>
@@ -71265,6 +71475,7 @@ E1 7A 3A C3 00 00 00 00 52 78 01 C3 DB 0F C9 BF 01 03 FF 00:Wep'keer from Mist W
                           <ID>87853</ID>
                           <Description>"exteriorMapID"</Description>
                           <ShowAsHex>1</ShowAsHex>
+                          <ShowAsSigned>0</ShowAsSigned>
                           <VariableType>2 Bytes</VariableType>
                           <Address>main.dll+B6B240</Address>
                         </CheatEntry>
@@ -71313,10 +71524,7 @@ E1 7A 3A C3 00 00 00 00 52 78 01 C3 DB 0F C9 BF 01 03 FF 00:Wep'keer from Mist W
                       <ID>87859</ID>
                       <Description>"Map Load Flag"</Description>
                       <ShowAsSigned>0</ShowAsSigned>
-                      <VariableType>Binary</VariableType>
-                      <BitStart>1</BitStart>
-                      <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
+                      <VariableType>Byte</VariableType>
                       <Address>main.dll+B6B2AF</Address>
                     </CheatEntry>
                     <CheatEntry>
@@ -72417,7 +72625,7 @@ CETrainer.hide()
           <CheatEntries>
             <CheatEntry>
               <ID>88022</ID>
-              <Description>"No description"</Description>
+              <Description>"1008 - 1003 in cutscene"</Description>
               <ShowAsHex>1</ShowAsHex>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>2 Bytes</VariableType>
@@ -72425,7 +72633,7 @@ CETrainer.hide()
             </CheatEntry>
             <CheatEntry>
               <ID>88023</ID>
-              <Description>"No description"</Description>
+              <Description>"A408 - 7768 in cutscene"</Description>
               <ShowAsHex>1</ShowAsHex>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>2 Bytes</VariableType>
@@ -72433,7 +72641,7 @@ CETrainer.hide()
             </CheatEntry>
             <CheatEntry>
               <ID>88024</ID>
-              <Description>"No description"</Description>
+              <Description>"A40E  - 7774 in cutscene, increases when advancing dialogue, 982A at the end "</Description>
               <ShowAsHex>1</ShowAsHex>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>2 Bytes</VariableType>
@@ -72441,7 +72649,7 @@ CETrainer.hide()
             </CheatEntry>
             <CheatEntry>
               <ID>88025</ID>
-              <Description>"No description"</Description>
+              <Description>"0005 - 0006 in cutscene"</Description>
               <ShowAsHex>1</ShowAsHex>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>2 Bytes</VariableType>
@@ -72449,61 +72657,61 @@ CETrainer.hide()
             </CheatEntry>
             <CheatEntry>
               <ID>88041</ID>
-              <Description>"No description"</Description>
+              <Description>"13 - 14 in cutscene"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>main.dll+7D8248</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>88042</ID>
-              <Description>"No description"</Description>
+              <Description>"7 - 20 in cutscene"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>main.dll+7E5770</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>88043</ID>
-              <Description>"No description"</Description>
+              <Description>"0 -17  in cutscene"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>main.dll+7E57B8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>88044</ID>
-              <Description>"No description"</Description>
+              <Description>"0 - 10  in cutscene"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>main.dll+7E5838</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>88045</ID>
-              <Description>"No description"</Description>
+              <Description>"9 - 49 in cutscene"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>main.dll+7E5868</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>88046</ID>
-              <Description>"No description"</Description>
+              <Description>"1 - 9  in cutscene"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>main.dll+7E5EA8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>88047</ID>
-              <Description>"No description"</Description>
+              <Description>"11 - 53  in cutscene"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>main.dll+7E6008</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>88048</ID>
-              <Description>"No description"</Description>
+              <Description>"3 -25  in cutscene"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>main.dll+7E6030</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>88049</ID>
-              <Description>"No description"</Description>
+              <Description>"17 - 49  in cutscene"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>main.dll+7E6050</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>88050</ID>
-              <Description>"No description"</Description>
+              <Description>"shortly 80 on load then 2 in cutscene, then 6 in next cutscene"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>main.dll+89DCA4</Address>
             </CheatEntry>
@@ -72869,7 +73077,7 @@ CETrainer.hide()
             </CheatEntry>
             <CheatEntry>
               <ID>88111</ID>
-              <Description>"No description"</Description>
+              <Description>"set"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>main.dll+8C5830</Address>
             </CheatEntry>
@@ -72935,7 +73143,7 @@ CETrainer.hide()
             </CheatEntry>
             <CheatEntry>
               <ID>88122</ID>
-              <Description>"No description"</Description>
+              <Description>"set"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>main.dll+8C6280</Address>
             </CheatEntry>
@@ -72959,19 +73167,19 @@ CETrainer.hide()
             </CheatEntry>
             <CheatEntry>
               <ID>88126</ID>
-              <Description>"No description"</Description>
+              <Description>"set"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>main.dll+8C65F0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>88127</ID>
-              <Description>"No description"</Description>
+              <Description>"set"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>main.dll+8C6834</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>88128</ID>
-              <Description>"No description"</Description>
+              <Description>"set"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>main.dll+8C6838</Address>
             </CheatEntry>
@@ -73325,13 +73533,13 @@ CETrainer.hide()
             </CheatEntry>
             <CheatEntry>
               <ID>88187</ID>
-              <Description>"No description"</Description>
+              <Description>"1 in cutscene"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>main.dll+9C2330</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>88188</ID>
-              <Description>"No description"</Description>
+              <Description>"1 in cutscene"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>main.dll+9C235C</Address>
             </CheatEntry>
@@ -73355,7 +73563,7 @@ CETrainer.hide()
             </CheatEntry>
             <CheatEntry>
               <ID>88192</ID>
-              <Description>"No description"</Description>
+              <Description>"2 - 15  in cutscene"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>main.dll+B1C944</Address>
             </CheatEntry>
@@ -73864,6 +74072,112 @@ flower_kernel.dll+1A9EB: CC        - int 3
         <Byte>C1</Byte>
         <Byte>C3</Byte>
         <Byte>CC</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Distant Cam Toggle Code :mov [rbx+000002DC],al</Description>
+      <AddressString>main.dll+476D0D</AddressString>
+      <Before>
+        <Byte>83</Byte>
+        <Byte>9A</Byte>
+        <Byte>03</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>88</Byte>
+        <Byte>83</Byte>
+        <Byte>DC</Byte>
+        <Byte>02</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>44</Byte>
+        <Byte>88</Byte>
+        <Byte>B3</Byte>
+        <Byte>82</Byte>
+        <Byte>01</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Enable First Person Cam Code :mov [rbx+000002DC],al</Description>
+      <AddressString>main.dll+476FE3</AddressString>
+      <Before>
+        <Byte>83</Byte>
+        <Byte>9A</Byte>
+        <Byte>03</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>88</Byte>
+        <Byte>83</Byte>
+        <Byte>DC</Byte>
+        <Byte>02</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>44</Byte>
+        <Byte>88</Byte>
+        <Byte>B3</Byte>
+        <Byte>82</Byte>
+        <Byte>01</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Disable First Person Cam Code :mov [rbx+000002DC],r14l</Description>
+      <AddressString>main.dll+476DDE</AddressString>
+      <Before>
+        <Byte>B3</Byte>
+        <Byte>9A</Byte>
+        <Byte>03</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>44</Byte>
+        <Byte>88</Byte>
+        <Byte>B3</Byte>
+        <Byte>DC</Byte>
+        <Byte>02</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>44</Byte>
+        <Byte>88</Byte>
+        <Byte>B3</Byte>
+        <Byte>82</Byte>
+        <Byte>01</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Draw Cam? Code :mov byte ptr [rbx+000002DC],06</Description>
+      <AddressString>main.dll+47FCF0</AddressString>
+      <Before>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>FF</Byte>
+        <Byte>75</Byte>
+        <Byte>07</Byte>
+      </Before>
+      <Actual>
+        <Byte>C6</Byte>
+        <Byte>83</Byte>
+        <Byte>DC</Byte>
+        <Byte>02</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>06</Byte>
+      </Actual>
+      <After>
+        <Byte>48</Byte>
+        <Byte>83</Byte>
+        <Byte>C4</Byte>
+        <Byte>20</Byte>
+        <Byte>5B</Byte>
       </After>
     </CodeEntry>
   </CheatCodes>
