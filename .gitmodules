@@ -4,3 +4,12 @@
 [submodule "OkamiHD-SFSAM"]
 	path = OkamiHD-SFSAM
 	url = https://github.com/Shintensu/OkamiHD-SFSAM.git
+[submodule "OkamiHD-SplitMD"]
+	path = OkamiHD-SplitMD
+	url = https://github.com/Shintensu/OkamiHD-SplitMD.git
+[submodule "OkamiHD-Online"]
+	path = OkamiHD-Online
+	url = https://github.com/Shintensu/OkamiHD-Online.git
+[submodule "OkamiHD-Decomp"]
+	path = OkamiHD-Decomp
+	url = https://github.com/Shintensu/OkamiHD-Decomp.git
