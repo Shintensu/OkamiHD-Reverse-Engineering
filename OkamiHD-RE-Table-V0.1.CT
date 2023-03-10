@@ -77263,6 +77263,21 @@ main.cPad::updateMoveSphre+7771: 48 89 4D 28           - mov [rbp+28],rcx
         <Offset>0</Offset>
       </Offsets>
     </CheatEntry>
+    <CheatEntry>
+      <ID>88685</ID>
+      <Description>"Entity Heap expandable size"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>main.dll + 12cac5</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>88686</ID>
+      <Description>"useEncryption?"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>main.dll + 7E6B44</Address>
+    </CheatEntry>
   </CheatEntries>
   <CheatCodes>
     <CodeEntry>
