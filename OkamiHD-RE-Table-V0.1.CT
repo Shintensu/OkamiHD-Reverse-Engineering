@@ -78138,6 +78138,41 @@ main.cPad::updateMoveSphre+7771: 48 89 4D 28           - mov [rbp+28],rcx
       <VariableType>4 Bytes</VariableType>
       <Address>main.dll + 7E6B44</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>88830</ID>
+      <Description>"No description"</Description>
+      <VariableType>String</VariableType>
+      <Length>8</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>249B6D6C8E3</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>88831</ID>
+      <Description>"mapDatPtr"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>String</VariableType>
+      <Length>20</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>249CE4B7FE0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>88832</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>main.dll+B6B230</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>88833</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>510D7FEE08</Address>
+    </CheatEntry>
   </CheatEntries>
   <CheatCodes>
     <CodeEntry>
