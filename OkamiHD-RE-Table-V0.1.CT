@@ -741,10 +741,10 @@ HelpForm.Hide()
                   <CheatEntries>
                     <CheatEntry>
                       <ID>88322</ID>
-                      <Description>"No description"</Description>
+                      <Description>"VTablePointer"</Description>
                       <ShowAsHex>1</ShowAsHex>
                       <ShowAsSigned>0</ShowAsSigned>
-                      <VariableType>4 Bytes</VariableType>
+                      <VariableType>8 Bytes</VariableType>
                       <Address>main.dll+B6B2D0</Address>
                       <Offsets>
                         <Offset>0</Offset>
@@ -973,6 +973,121 @@ HelpForm.Hide()
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>Float</VariableType>
                       <Address>+7A0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>88834</ID>
+                      <Description>"Mesh Data Pointer"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>String</VariableType>
+                      <Length>3</Length>
+                      <Unicode>0</Unicode>
+                      <CodePage>0</CodePage>
+                      <ZeroTerminate>1</ZeroTerminate>
+                      <Address>+D60</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                      </Offsets>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>88837</ID>
+                          <Description>"Submesh Count"</Description>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+8</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>88836</ID>
+                          <Description>"First Submesh"</Description>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>String</VariableType>
+                          <Length>3</Length>
+                          <Unicode>0</Unicode>
+                          <CodePage>0</CodePage>
+                          <ZeroTerminate>1</ZeroTerminate>
+                          <Address>+20</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>88844</ID>
+                          <Description>"Vertex 1"</Description>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <GroupHeader>1</GroupHeader>
+                          <Address>+2D0</Address>
+                          <CheatEntries>
+                            <CheatEntry>
+                              <ID>88841</ID>
+                              <Description>"X"</Description>
+                              <ShowAsSigned>0</ShowAsSigned>
+                              <VariableType>Float</VariableType>
+                              <Address>+0</Address>
+                            </CheatEntry>
+                            <CheatEntry>
+                              <ID>88842</ID>
+                              <Description>"Y"</Description>
+                              <ShowAsSigned>0</ShowAsSigned>
+                              <VariableType>Float</VariableType>
+                              <Address>+4</Address>
+                            </CheatEntry>
+                            <CheatEntry>
+                              <ID>88843</ID>
+                              <Description>"Z"</Description>
+                              <ShowAsSigned>0</ShowAsSigned>
+                              <VariableType>Float</VariableType>
+                              <Address>+8</Address>
+                            </CheatEntry>
+                            <CheatEntry>
+                              <ID>88845</ID>
+                              <Description>"Culling"</Description>
+                              <ShowAsHex>1</ShowAsHex>
+                              <ShowAsSigned>0</ShowAsSigned>
+                              <VariableType>4 Bytes</VariableType>
+                              <Address>+C</Address>
+                            </CheatEntry>
+                          </CheatEntries>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>88835</ID>
+                      <Description>"DDS Texture Archive Pointer"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>String</VariableType>
+                      <Length>128</Length>
+                      <Unicode>0</Unicode>
+                      <CodePage>0</CodePage>
+                      <ZeroTerminate>0</ZeroTerminate>
+                      <Address>+D68</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                      </Offsets>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>88838</ID>
+                          <Description>"First Texture"</Description>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>String</VariableType>
+                          <Length>3</Length>
+                          <Unicode>0</Unicode>
+                          <CodePage>0</CodePage>
+                          <ZeroTerminate>1</ZeroTerminate>
+                          <Address>+A8</Address>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>88840</ID>
+                      <Description>"Mesh Data Pointer"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>8 Bytes</VariableType>
+                      <Address>+D60</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>88839</ID>
+                      <Description>"DDS Texture Archive Pointer"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>8 Bytes</VariableType>
+                      <Address>+D68</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>88497</ID>
@@ -3614,30 +3729,31 @@ HelpForm.Hide()
                       <Description>"Item ID"</Description>
                       <ShowAsHex>1</ShowAsHex>
                       <ShowAsSigned>0</ShowAsSigned>
-                      <VariableType>2 Bytes</VariableType>
+                      <VariableType>4 Bytes</VariableType>
                       <Address>main.dll+7A9814</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>902</ID>
-                      <Description>"Item ID 2? Kinda useless"</Description>
-                      <ShowAsHex>1</ShowAsHex>
-                      <VariableType>Byte</VariableType>
-                      <Address>main.dll+B204C0</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>903</ID>
-                      <Description>"(REMOVE THIS)Item Name 2 bytes"</Description>
+                      <Description>"Item ID 2, used int Equipment"</Description>
                       <ShowAsHex>1</ShowAsHex>
                       <ShowAsSigned>0</ShowAsSigned>
-                      <VariableType>2 Bytes</VariableType>
-                      <Address>main.dll+9C148E</Address>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>main.dll+B204C0</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>2604</ID>
                       <Description>"Item Name"</Description>
                       <ShowAsHex>1</ShowAsHex>
-                      <VariableType>Byte</VariableType>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
                       <Address>main.dll+9C148E</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>88855</ID>
+                      <Description>"Menu Type"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>Byte</VariableType>
+                      <Address>main.dll+B1F400</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>2633</ID>
@@ -3655,7 +3771,7 @@ HelpForm.Hide()
                     </CheatEntry>
                     <CheatEntry>
                       <ID>906</ID>
-                      <Description>"Item Select Visual Row"</Description>
+                      <Description>"Item Select Row"</Description>
                       <ShowAsHex>1</ShowAsHex>
                       <VariableType>Byte</VariableType>
                       <Address>main.dll+B1F403</Address>
@@ -3682,19 +3798,19 @@ HelpForm.Hide()
                         </CheatEntry>
                         <CheatEntry>
                           <ID>87809</ID>
-                          <Description>"Holy Bone L"</Description>
+                          <Description>"???"</Description>
                           <VariableType>2 Bytes</VariableType>
                           <Address>main.dll+B2063A</Address>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>87810</ID>
-                          <Description>"Holy Bone L"</Description>
+                          <Description>"???"</Description>
                           <VariableType>2 Bytes</VariableType>
                           <Address>main.dll+B2063C</Address>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>87811</ID>
-                          <Description>"Holy Bone L"</Description>
+                          <Description>"???"</Description>
                           <VariableType>2 Bytes</VariableType>
                           <Address>main.dll+B2063E</Address>
                         </CheatEntry>
@@ -77865,180 +77981,186 @@ flower_kernel.dll+1A9EB: CC        - int 3
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
-      <ID>88488</ID>
-      <Description>"No description"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>main.dll + B4DFA9</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>88489</ID>
-      <Description>"No description"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>7FFCC40FE016</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>88490</ID>
-      <Description>"No description"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>main.dll+B4E01A</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>88491</ID>
-      <Description>"No description"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>7FFCC4100AB8</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>88501</ID>
-      <Description>"No description"</Description>
-      <VariableType>Float</VariableType>
-      <Address>14D1F96F19C</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>88502</ID>
-      <Description>"No description"</Description>
-      <VariableType>Float</VariableType>
-      <Address>14D1F96F1CC</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>88503</ID>
-      <Description>"No description"</Description>
-      <VariableType>Float</VariableType>
-      <Address>14D1F96F1FC</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>88504</ID>
-      <Description>"No description"</Description>
-      <VariableType>Float</VariableType>
-      <Address>14D61D69B8C</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>88505</ID>
-      <Description>"No description"</Description>
-      <VariableType>Float</VariableType>
-      <Address>14D61D69BCC</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>88506</ID>
-      <Description>"No description"</Description>
-      <VariableType>Float</VariableType>
-      <Address>14D61D69C0C</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>88650</ID>
-      <Description>"No description"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>8 Bytes</VariableType>
-      <Address>1CC41DD2FA8</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>88651</ID>
-      <Description>"No description"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>8 Bytes</VariableType>
-      <Address>1CC41DD3058</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>88653</ID>
-      <Description>"No description"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>8 Bytes</VariableType>
-      <Address>1CC41DD3808</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>88654</ID>
-      <Description>"No description"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>8 Bytes</VariableType>
-      <Address>1CC41DD38B8</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>88655</ID>
-      <Description>"No description"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>000001CC41DD2EF8</Address>
+      <ID>88854</ID>
+      <Description>"WIP Shintensu 17/03/2023"</Description>
+      <Options moHideChildren="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+      <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
-          <ID>88656</ID>
-          <Description>"No description"</Description>
-          <ShowAsSigned>0</ShowAsSigned>
-          <VariableType>Float</VariableType>
-          <Address>+28</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>88657</ID>
-          <Description>"No description"</Description>
-          <ShowAsSigned>0</ShowAsSigned>
-          <VariableType>Float</VariableType>
-          <Address>+2C</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>88658</ID>
-          <Description>"No description"</Description>
-          <ShowAsSigned>0</ShowAsSigned>
-          <VariableType>Float</VariableType>
-          <Address>+30</Address>
-        </CheatEntry>
-      </CheatEntries>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>88659</ID>
-      <Description>"No description"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>main.dll+8C1630 </Address>
-      <CheatEntries>
-        <CheatEntry>
-          <ID>88660</ID>
+          <ID>88488</ID>
           <Description>"No description"</Description>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
-          <VariableType>Float</VariableType>
-          <Address>main.dll+8bF740</Address>
-          <Offsets>
-            <Offset>0</Offset>
-            <Offset>2d0</Offset>
-          </Offsets>
+          <VariableType>4 Bytes</VariableType>
+          <Address>main.dll + B4DFA9</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>88662</ID>
+          <ID>88489</ID>
+          <Description>"No description"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>7FFCC40FE016</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>88490</ID>
+          <Description>"No description"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>main.dll+B4E01A</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>88491</ID>
+          <Description>"No description"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>7FFCC4100AB8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>88501</ID>
+          <Description>"No description"</Description>
+          <VariableType>Float</VariableType>
+          <Address>14D1F96F19C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>88502</ID>
+          <Description>"No description"</Description>
+          <VariableType>Float</VariableType>
+          <Address>14D1F96F1CC</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>88503</ID>
+          <Description>"No description"</Description>
+          <VariableType>Float</VariableType>
+          <Address>14D1F96F1FC</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>88504</ID>
+          <Description>"No description"</Description>
+          <VariableType>Float</VariableType>
+          <Address>14D61D69B8C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>88505</ID>
+          <Description>"No description"</Description>
+          <VariableType>Float</VariableType>
+          <Address>14D61D69BCC</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>88506</ID>
+          <Description>"No description"</Description>
+          <VariableType>Float</VariableType>
+          <Address>14D61D69C0C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>88650</ID>
+          <Description>"No description"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>8 Bytes</VariableType>
+          <Address>1CC41DD2FA8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>88651</ID>
+          <Description>"No description"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>8 Bytes</VariableType>
+          <Address>1CC41DD3058</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>88653</ID>
+          <Description>"No description"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>8 Bytes</VariableType>
+          <Address>1CC41DD3808</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>88654</ID>
+          <Description>"No description"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>8 Bytes</VariableType>
+          <Address>1CC41DD38B8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>88655</ID>
+          <Description>"No description"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>000001CC41DD2EF8</Address>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>88656</ID>
+              <Description>"No description"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>+28</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>88657</ID>
+              <Description>"No description"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>+2C</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>88658</ID>
+              <Description>"No description"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>+30</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>88659</ID>
           <Description>"No description"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
           <Address>main.dll+8C1630 </Address>
-          <Offsets>
-            <Offset>2d0</Offset>
-          </Offsets>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>88660</ID>
+              <Description>"No description"</Description>
+              <ShowAsHex>1</ShowAsHex>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>main.dll+8bF740</Address>
+              <Offsets>
+                <Offset>0</Offset>
+                <Offset>2d0</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>88662</ID>
+              <Description>"No description"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>4 Bytes</VariableType>
+              <Address>main.dll+8C1630 </Address>
+              <Offsets>
+                <Offset>2d0</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
         </CheatEntry>
-      </CheatEntries>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>88663</ID>
-      <Description>"No description"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>8 Bytes</VariableType>
-      <Address>main.dll+8C19C8</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>88664</ID>
-      <Description>"No description"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>8 Bytes</VariableType>
-      <Address>main.dll+8C12F0</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>88665</ID>
-      <Description>"Spawn second set of tendrils"</Description>
-      <VariableType>Auto Assembler Script</VariableType>
-      <AssemblerScript>{ Game   : okami.exe
+        <CheatEntry>
+          <ID>88663</ID>
+          <Description>"No description"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>8 Bytes</VariableType>
+          <Address>main.dll+8C19C8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>88664</ID>
+          <Description>"No description"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>8 Bytes</VariableType>
+          <Address>main.dll+8C12F0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>88665</ID>
+          <Description>"Spawn second set of tendrils(Doesnt work)"</Description>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{ Game   : okami.exe
   Version: 
   Date   : 2023-02-18
   Author : Shintensu
@@ -78104,74 +78226,150 @@ main.cPad::updateMoveSphre+776D: 48 89 4D 20           - mov [rbp+20],rcx
 main.cPad::updateMoveSphre+7771: 48 89 4D 28           - mov [rbp+28],rcx
 }
 </AssemblerScript>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>88669</ID>
-      <Description>"isSystemInitialized"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>flower_kernel.dll + 11C4B0</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>88670</ID>
-      <Description>"SystemHeapPointer"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>8 Bytes</VariableType>
-      <Address>flower_kernel.dll+11C330</Address>
-      <Offsets>
-        <Offset>0</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>88685</ID>
-      <Description>"Entity Heap expandable size"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>main.dll + 12cac5</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>88686</ID>
-      <Description>"useEncryption?"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>main.dll + 7E6B44</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>88830</ID>
-      <Description>"No description"</Description>
-      <VariableType>String</VariableType>
-      <Length>8</Length>
-      <Unicode>0</Unicode>
-      <CodePage>0</CodePage>
-      <ZeroTerminate>1</ZeroTerminate>
-      <Address>249B6D6C8E3</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>88831</ID>
-      <Description>"mapDatPtr"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>String</VariableType>
-      <Length>20</Length>
-      <Unicode>0</Unicode>
-      <CodePage>0</CodePage>
-      <ZeroTerminate>1</ZeroTerminate>
-      <Address>249CE4B7FE0</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>88832</ID>
-      <Description>"No description"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>8 Bytes</VariableType>
-      <Address>main.dll+B6B230</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>88833</ID>
-      <Description>"No description"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>8 Bytes</VariableType>
-      <Address>510D7FEE08</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>88669</ID>
+          <Description>"isSystemInitialized"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>flower_kernel.dll + 11C4B0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>88670</ID>
+          <Description>"SystemHeapPointer"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>8 Bytes</VariableType>
+          <Address>flower_kernel.dll+11C330</Address>
+          <Offsets>
+            <Offset>0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>88685</ID>
+          <Description>"Entity Heap expandable size"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>main.dll + 12cac5</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>88686</ID>
+          <Description>"useEncryption?"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>main.dll + 7E6B44</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>88853</ID>
+          <Description>"useEncryption?"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>main.dll + 15269D</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>88832</ID>
+          <Description>"mapDatPtr"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>8 Bytes</VariableType>
+          <Address>main.dll+B6B230</Address>
+          <Offsets>
+            <Offset>0</Offset>
+          </Offsets>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>88831</ID>
+              <Description>"MapData"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>String</VariableType>
+              <Length>20</Length>
+              <Unicode>0</Unicode>
+              <CodePage>0</CodePage>
+              <ZeroTerminate>1</ZeroTerminate>
+              <Address>+0</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>88846</ID>
+              <Description>"MapData"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>String</VariableType>
+              <Length>20</Length>
+              <Unicode>0</Unicode>
+              <CodePage>0</CodePage>
+              <ZeroTerminate>1</ZeroTerminate>
+              <Address>+2B88</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>88847</ID>
+              <Description>"MapData"</Description>
+              <ShowAsHex>1</ShowAsHex>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>8 Bytes</VariableType>
+              <Address>+2DF8</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>88830</ID>
+          <Description>"No description"</Description>
+          <VariableType>String</VariableType>
+          <Length>8</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>249B6D6C8E3</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>88833</ID>
+          <Description>"No description"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>8 Bytes</VariableType>
+          <Address>510D7FEE08</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>88849</ID>
+          <Description>"No description"</Description>
+          <VariableType>String</VariableType>
+          <Length>3</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>1AB3AC4B034</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>88850</ID>
+          <Description>"No description"</Description>
+          <VariableType>String</VariableType>
+          <Length>3</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>1AB3AC4DB68</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>88851</ID>
+          <Description>"No description"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>10</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>main.dll+678014</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>88852</ID>
+          <Description>"No description"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>10</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>main.dll+678018</Address>
+        </CheatEntry>
+      </CheatEntries>
     </CheatEntry>
   </CheatEntries>
   <CheatCodes>
@@ -79920,6 +80118,102 @@ main.cPad::updateMoveSphre+7771: 48 89 4D 28           - mov [rbp+28],rcx
         <Byte>9C</Byte>
         <Byte>24</Byte>
         <Byte>E0</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of call qword ptr [main.dll+670740]</Description>
+      <AddressString>main.dll+3DA7F4</AddressString>
+      <Before>
+        <Byte>BA</Byte>
+        <Byte>02</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>FF</Byte>
+        <Byte>15</Byte>
+        <Byte>46</Byte>
+        <Byte>5F</Byte>
+        <Byte>29</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>D0</Byte>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of call qword ptr [main.dll+670940]</Description>
+      <AddressString>main.dll+20C1B2</AddressString>
+      <Before>
+        <Byte>E8</Byte>
+        <Byte>41</Byte>
+        <Byte>8B</Byte>
+        <Byte>56</Byte>
+        <Byte>E4</Byte>
+      </Before>
+      <Actual>
+        <Byte>FF</Byte>
+        <Byte>15</Byte>
+        <Byte>88</Byte>
+        <Byte>47</Byte>
+        <Byte>46</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>EB</Byte>
+        <Byte>10</Byte>
+        <Byte>4C</Byte>
+        <Byte>8B</Byte>
+        <Byte>C5</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of jne main.dll+198A88</Description>
+      <AddressString>main.dll+198A73</AddressString>
+      <Before>
+        <Byte>8B</Byte>
+        <Byte>F0</Byte>
+        <Byte>48</Byte>
+        <Byte>85</Byte>
+        <Byte>C0</Byte>
+      </Before>
+      <Actual>
+        <Byte>75</Byte>
+        <Byte>13</Byte>
+      </Actual>
+      <After>
+        <Byte>8B</Byte>
+        <Byte>D7</Byte>
+        <Byte>48</Byte>
+        <Byte>8D</Byte>
+        <Byte>4C</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of jmp rax</Description>
+      <AddressString>main.dll+19A2A7</AddressString>
+      <Before>
+        <Byte>19</Byte>
+        <Byte>00</Byte>
+        <Byte>49</Byte>
+        <Byte>03</Byte>
+        <Byte>C0</Byte>
+      </Before>
+      <Actual>
+        <Byte>FF</Byte>
+        <Byte>E0</Byte>
+      </Actual>
+      <After>
+        <Byte>F2</Byte>
+        <Byte>0F</Byte>
+        <Byte>10</Byte>
+        <Byte>05</Byte>
+        <Byte>37</Byte>
       </After>
     </CodeEntry>
   </CheatCodes>
